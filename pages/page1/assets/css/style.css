@@ -1,5 +1,182 @@
 body {
+  background-image: url('/assets/img/Untitled design.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin: 0;
+  padding: 0;
+  color: var(--font-color-light);
   font-family: Arial, sans-serif;
-  background-color: #121212;
 }
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.6); /* Slightly transparent dark background */
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  height: 90vh;
+  width: 100%;
+  background-image: url('/assets/img/Untitled\ design.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-label {
+  font-size: 1.125rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.glow-name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #8be9fd;
+  text-shadow:
+    0 0 0.625rem #ff69b4,
+    0 0 1.25rem #ff69b4;
+  margin: 0.625rem 0;
+}
+
+.body-text {
+  font-size: 1rem;
+  color: white;
+  max-width: 38rem;
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1.25rem;
+  background: transparent;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4rem;
+  max-width: 62.5rem;
+  width: 100%;
+}
+
+.bio {
+  flex: 1;
+  color: #fff;
+}
+
+.photo-box {
+  flex-shrink: 0;
+  border-radius: 0.75rem;
+  box-shadow:
+    0 0 1rem #00bfff,
+    0 0 2rem #00bfff,
+    0 0 3rem #00bfff;
+}
+
+.about-photo {
+  width: 20rem;
+  height: auto;
+  border-radius: 0.75rem;
+  display: block;
+}
+
+.education-section {
+  padding: 4rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+}
+
+.education-wrapper {
+  max-width: 62.5rem;
+  width: 100%;
+  text-align: left;  
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 3rem;
+  color: #8be9fd;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 0.5rem #00bfff;
+}
+
+.education-text {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.hobbies-section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.card-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: #e81cff #1a1a1a;
+}
+
+.card-scroll-container::-webkit-scrollbar {
+  height: 0.5rem;
+}
+
+.card-scroll-container::-webkit-scrollbar-thumb {
+  background-color: #e81cff;
+  border-radius: 1rem;
+}
+
+.simple-card {
+  flex: 0 0 auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  scroll-snap-align: start;
+  transition: 0.3s ease;
+  width: 12rem;
+  box-shadow: 0 0 1rem rgba(255, 255, 255, 0.1);
+}
+
+.simple-card:hover {
+  box-shadow: 0 0 1rem #e81cff;
+  transform: scale(1.05);
+}
+
+.simple-card img {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.simple-card p {
+  color: #ffffff;
+  font-size: 1rem;
+  margin: 0;
+}
+
+

@@ -15,6 +15,7 @@
   z-index: 10;
 }
 
+
 .wrapper {
   width: 62.5rem;
   background-color: var(--bg-color);
@@ -78,11 +79,16 @@
   transition: color 0.3s ease;
 }
 
-/* Highlight active link manually per page */
 .option.active {
   background-color: var(--main-color);
 }
 
 .option.active .span {
   color: var(--font-color-light);
+}
+
+.header, .wrapper, .btn, .span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }

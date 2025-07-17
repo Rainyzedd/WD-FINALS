@@ -69,3 +69,14 @@ body {
   object-fit: cover;
   border-radius: 1rem;
 }
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.6); /* Slightly transparent dark background */
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  position: relative;
+  z-index: 10;
+}

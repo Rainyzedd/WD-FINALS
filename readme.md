@@ -119,4 +119,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Canva | For images provided | https://www.canva.com/design/DAGopfRX2U4/jbX8nxY5t2OP3gR2X-S0ww/edit |
+

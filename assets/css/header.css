@@ -85,3 +85,9 @@
 .option.active .span {
   color: var(--font-color-light);
 }
+
+.header, .wrapper, .btn, .span {
+  font-family: 'Poppins', sans-serif; /* or 'Montserrat', sans-serif */
+  font-weight: 600; /* bold but not too heavy */
+  letter-spacing: 0.5px;
+}

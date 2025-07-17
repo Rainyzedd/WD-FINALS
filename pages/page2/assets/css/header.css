@@ -1,0 +1,94 @@
+:root {
+  --font-color-dark: #bebfc5;
+  --font-color-light: #ffffff;
+  --bg-color: #212121;
+  --main-color: #0c0c0c;
+  --secondary-color: #141414;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
+  background: transparent;
+  z-index: 10;
+}
+
+
+.wrapper {
+  width: 62.5rem;
+  background-color: var(--bg-color);
+  border: 0.125rem solid var(--main-color);
+  border-radius: 3.125rem;
+  box-shadow: 0.25rem 0.25rem var(--main-color);
+  padding: 0.25rem 1.875rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.nav-logo {
+  flex: 1.5;
+  display: flex;
+  align-items: flex-start;
+}
+
+.nav-logo img {
+  height: 4rem;
+  width: auto;
+  object-fit: contain;
+}
+
+.nav-buttons {
+  flex: 3;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.625rem;
+}
+
+.option {
+  width: 6.25rem;
+  height: 2.25rem;
+  position: relative;
+  border-radius: 2.125rem;
+  transition: 0.25s ease;
+  overflow: hidden;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.option:hover {
+  background-color: var(--secondary-color);
+}
+
+.btn {
+  width: 100%;
+  height: 100%;
+  border-radius: 2.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.span {
+  color: var(--font-color-dark);
+  font-size: 0.875rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.option.active {
+  background-color: var(--main-color);
+}
+
+.option.active .span {
+  color: var(--font-color-light);
+}
+
+.header, .wrapper, .btn, .span {
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 600; 
+  letter-spacing: 0.5px;
+}

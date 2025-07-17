@@ -1,0 +1,21 @@
+body {
+  background-image: url('/assets/img/Untitled design.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  color: var(--font-color-light);
+  font-family: Arial, sans-serif;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  position: relative;
+  z-index: 10;
+}
