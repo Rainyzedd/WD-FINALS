@@ -1,21 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
   background-image: url('/assets/img/Untitled design.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
-  color: var(--font-color-light);
-  font-family: Arial, sans-serif;
+  color: #fff;
 }
 
-.footer {
-  background-color: rgba(0, 0, 0, 0.6); 
-  color: #ffffff;
-  text-align: center;
-  padding: 15px 0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 40rem;
+  padding: 2rem;
+  border-radius: 1.25rem;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  margin: 3rem auto 2rem auto;
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #00bfff;
   position: relative;
-  z-index: 10;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background: #00bfff;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background: #00bfff;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  animation: pulse 1.2s ease-out infinite;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translateY(-50%) scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(-50%) scale(2.2);
+    opacity: 0;
+  }
+}
+
+.message {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+label {
+  position: relative;
+  flex: 1;
+}
+
+.input {
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  padding: 1.25rem 0.625rem 0.625rem;
+  border: 1px solid rgba(105, 105, 105, 0.4);
+  border-radius: 0.625rem;
+  font-size: 1rem;
+}
+
+.input + span {
+  color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 0.625rem;
+  top: 0.625rem;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.input:focus + span,
+.input:valid + span {
+  color: #00bfff;
+  top: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.submit {
+  border: none;
+  padding: 0.75rem;
+  border-radius: 0.625rem;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #00bfff;
+  transition: background 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #00bfff96;
+}
+
+footer {
+  background: rgb(0, 0, 0);
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 1rem;
+  margin-top: auto;
+  box-shadow: 0 -0.2rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 3rem auto;
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+
+.socials-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  min-width: 220px;
+}
+
+.social-heading {
+  color: #00bfff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.socialContainer {
+  background-color: #212121;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.socialContainer:hover {
+  transform: scale(1.1);
+}
+
+.social-icon {
+  color: white;
+  font-size: 1.5rem;
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.containerOne:hover {
+  background-color: #e1306c;
+  box-shadow: 0 0 15px #e1306c;
+}
+
+.containerTwo:hover {
+  background-color: #4267B2;
+  box-shadow: 0 0 15px #4267B2;
+}
+
+.containerThree:hover {
+  background-color: #db4437;
+  box-shadow: 0 0 15px #db4437;
+}
+
+.containerFour:hover {
+  background-color: #333;
+  box-shadow: 0 0 15px #333;
 }

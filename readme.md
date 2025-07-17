@@ -120,4 +120,6 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Canva | For images provided | https://www.canva.com/design/DAGopfRX2U4/jbX8nxY5t2OP3gR2X-S0ww/edit |
+| Nav button for projects | ive used this button for the background of my project | https://uiverse.io/SouravBandyopadhyay/rude-tiger-29 |
+| Nav buttons for headings | ive used this buttons for my heading | https://uiverse.io/LightAndy1/empty-donkey-0 |
 

@@ -1,19 +1,18 @@
 body {
+  font-family: 'Poppins', sans-serif;
   background-image: url('/assets/img/Untitled design.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
   color: #fff;
 }
+
 
 .footer {
   background-color: rgba(0, 0, 0, 0.6); 
   text-align: center;
-  padding: 15px 0;
-  font-size: 14px;
+  padding: 1.5em 0;
+  font-size: 1rem;
 }
 
 .gallery-container {

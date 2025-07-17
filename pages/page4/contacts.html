@@ -7,46 +7,86 @@
 
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/header.css" />
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" 
+  rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </head>
 
 <body>
-  <div class="hero-wrapper"> 
-    <header class="header">
-      <div class="nav-container">
-        <nav class="wrapper">
-          <div class="nav-logo">
-            <a href="../../index.html">
-              <img src="/assets/img/logo.png" alt="Logo" />
-            </a>
+  <div class="page-wrapper">
+    <div class="content">
+      <div class="hero-wrapper">
+        <header class="header">
+          <div class="nav-container">
+            <nav class="wrapper">
+              <div class="nav-logo">
+                <a href="../../index.html">
+                  <img src="/assets/img/logo.png" alt="Logo" />
+                </a>
+              </div>
+              <a href="../../index.html" class="option"><div class="btn"><span class="span">HOME</span></div></a>
+              <a href="../page1/aboutme.html" class="option"><div class="btn"><span class="span">ABOUT ME</span></div></a>
+              <a href="../page2/projects.html" class="option"><div class="btn"><span class="span">PROJECTS</span></div></a>
+              <a href="../page3/gallery.html" class="option"><div class="btn"><span class="span">GALLERY</span></div></a>
+              <a href="../page4/contacts.html" class="option active"><div class="btn"><span class="span">CONTACTS</span></div></a>
+            </nav>
           </div>
+        </header>
+        
+<div class="page-wrapper">
+  <div class="content">
+    <div class="form-wrapper">
+      <form class="form">
+        <h2 class="title">Contact Us</h2>
+        <div class="message">We would love to hear from you!</div>
+        <div class="flex">
+          <label>
+            <input class="input" type="text" required />
+            <span>Name</span>
+          </label>
+          <label>
+            <input class="input" type="email" required />
+            <span>Email</span>
+          </label>
+        </div>
+        <label>
+          <input class="input" type="text" required />
+          <span>Subject</span>
+        </label>
+        <label>
+          <textarea class="input" rows="5" required></textarea>
+          <span>Message</span>
+        </label>
+        <button class="submit" type="submit">Send Message</button>
+      </form>
 
-          <a href="../../index.html" class="option">
-            <div class="btn"><span class="span">HOME</span></div>
-          </a>
-
-          <a href="../page1/aboutme.html" class="option">
-            <div class="btn"><span class="span">ABOUT ME</span></div>
-          </a>
-
-          <a href="../page2/projects.html" class="option">
-            <div class="btn"><span class="span">PROJECTS</span></div>
-          </a>
-
-          <a href="../page3/gallery.html" class="option">
-            <div class="btn"><span class="span">GALLERY</span></div>
-          </a>
-
-          <a href="../page4/contacts.html" class="option active">
-            <div class="btn"><span class="span">CONTACTS</span></div>
-          </a>
-        </nav>
+      <div class="socials-section">
+        <h3 class="social-heading">My Socials</h3>
+  <div class="card">
+  <a href="https://instagram.com/rainyzed" target="_blank" class="socialContainer containerOne">
+    <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+  </a>
+  <a href="https://facebook.com/rensed18" target="_blank" class="socialContainer containerTwo">
+    <ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+  </a>
+  <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" class="socialContainer containerThree">
+    <ion-icon name="logo-google" class="social-icon"></ion-icon>
+  </a>
+  <a href="https://github.com/Rainyzedd" target="_blank" class="socialContainer containerFour">
+    <ion-icon name="logo-github" class="social-icon"></ion-icon>
+  </a>
+</div>
       </div>
-    </header>
+    </div>
+  </div>
 
-  <footer class="footer">
-  <p>© Made by Rheiyn Sedillo. All Rights Reserved.</p>
-  </footer>
-
+    <footer class="footer">
+      <p>© Made by Rheiyn Sedillo. All Rights Reserved.</p>
+    </footer>
+    
+  </div>
 </body>
+
 </html>
