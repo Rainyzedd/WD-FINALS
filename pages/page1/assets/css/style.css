@@ -1,16 +1,15 @@
 body {
-  background-image: url('/assets/img/Untitled design.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   margin: 0;
-  padding: 0;
-  color: var(--font-color-light);
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('../img/bg2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .footer {
-  background-color: rgba(0, 0, 0, 0.6); /* Slightly transparent dark background */
+  background-color: rgba(0, 0, 0, 0.6);
   color: #ffffff;
   text-align: center;
   padding: 15px 0;
@@ -18,17 +17,6 @@ body {
   font-size: 14px;
   position: relative;
   z-index: 10;
-}
-
-.hero {
-  height: 90vh;
-  width: 100%;
-  background-image: url('/assets/img/Untitled\ design.jpg');
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .intro-label {
