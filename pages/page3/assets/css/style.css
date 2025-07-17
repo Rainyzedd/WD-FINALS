@@ -4,9 +4,10 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: #fff;
+  margin: 0;
+  padding: 0;
+  color: var(--font-color-light);
 }
-
 
 .footer {
   background-color: rgba(0, 0, 0, 0.6); 
