@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+}
+
+.hero {
+  height: 90vh;
+  width: 100%;
+  background-image: url('/assets/img/Untitled\ design.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-wrapper {
+  background-image: url('/assets/img/Untitled\ design.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  max-width: 1200px;
+  margin-top: 10rem;
+  gap: 2rem;
+}
+
+.hero-text {
+  color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: -10rem;
+  padding-left: 7rem;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+  color: #bebfc5;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: -15rem;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1rem;
+}
