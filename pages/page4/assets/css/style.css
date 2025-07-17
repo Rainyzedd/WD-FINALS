@@ -8,15 +8,12 @@
 
 
 body {
-  max-height: 100vh;
-  display: flex;
-  flex-direction: column;
   font-family: 'Poppins', sans-serif;
-  background-image: url("../img/bg2.jpg");
+  margin: 0;
+  padding: 0;
+  background: url('/assets/img/Untitled design.jpg') no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: var(--font-color-light);
+  position: relative;
 }
 
 html, body {
@@ -56,6 +53,13 @@ html, body {
   position: relative;
   padding-left: 2rem;
   margin-bottom: 1rem;
+}
+
+.page-wrapper,
+.content,
+.form-wrapper,
+.form {
+  background: transparent;
 }
 
 .title::before {
