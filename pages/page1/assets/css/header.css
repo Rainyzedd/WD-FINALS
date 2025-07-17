@@ -7,6 +7,17 @@
   font-size: 16px;
 }
 
+.hero {
+  height: 90vh;
+  width: 100%;
+  background-image: url("../img/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .header {
   display: flex;
   justify-content: center;
