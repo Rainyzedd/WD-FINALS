@@ -45,41 +45,91 @@
     </header>
 
 <section class="gallery-section">
-    <h1>My Photography Gallery</h1>
+    <h1 class="gallery-title">My Photo Gallery</h1>
   </section>
 
 <main class="gallery-container">
-  <div class="gallery-grid">
-    <!-- LANDSCAPE -->
-    <div class="gallery-item"><a href="./assets/img/DSC01524.jpg" target="_blank"><img src="./assets/img/DSC01524.jpg" alt="Photo 1"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC01617.jpg" target="_blank"><img src="./assets/img/DSC01617.jpg" alt="Photo 6"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC01658.jpg" target="_blank"><img src="./assets/img/DSC01658.jpg" alt="Photo 7"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC01697.jpg" target="_blank"><img src="./assets/img/DSC01697.jpg" alt="Photo 9"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC06373.JPG" target="_blank"><img src="./assets/img/DSC06373.JPG" alt="Photo 12"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC06379.JPG" target="_blank"><img src="./assets/img/DSC06379.JPG" alt="Photo 13"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC06417.JPG" target="_blank"><img src="./assets/img/DSC06417.JPG" alt="Photo 14"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC06451.JPG" target="_blank"><img src="./assets/img/DSC06451.JPG" alt="Photo 15"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC06620.JPG" target="_blank"><img src="./assets/img/DSC06620.JPG" alt="Photo 16"></a></div>
+  <div class="slider">
 
-    <!-- PORTRAIT -->
-    <div class="gallery-item"><a href="./assets/img/DSC01526.jpg" target="_blank"><img src="./assets/img/DSC01526.jpg" alt="Photo 2"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC01562.jpg" target="_blank"><img src="./assets/img/DSC01562.jpg" alt="Photo 3"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC01566.jpg" target="_blank"><img src="./assets/img/DSC01566.jpg" alt="Photo 4"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC01616.jpg" target="_blank"><img src="./assets/img/DSC01616.jpg" alt="Photo 5"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC01683.jpg" target="_blank"><img src="./assets/img/DSC01683.jpg" alt="Photo 8"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC01700.jpg" target="_blank"><img src="./assets/img/DSC01700.jpg" alt="Photo 10"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC06357.JPG" target="_blank"><img src="./assets/img/DSC06357.JPG" alt="Photo 11"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC09342.jpg" target="_blank"><img src="./assets/img/DSC09342.jpg" alt="Photo 17"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC09539.jpg" target="_blank"><img src="./assets/img/DSC09539.jpg" alt="Photo 18"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC09546.jpg" target="_blank"><img src="./assets/img/DSC09546.jpg" alt="Photo 19"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC09555.jpg" target="_blank"><img src="./assets/img/DSC09555.jpg" alt="Photo 20"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC09582.png" target="_blank"><img src="./assets/img/DSC09582.png" alt="Photo 21"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC09615.png" target="_blank"><img src="./assets/img/DSC09615.png" alt="Photo 22"></a></div>
-    <div class="gallery-item"><a href="./assets/img/DSC09635.png" target="_blank"><img src="./assets/img/DSC09635.png" alt="Photo 23"></a></div>
+    <input type="radio" name="slider" id="slide1" checked>
+    <input type="radio" name="slider" id="slide2">
+    <input type="radio" name="slider" id="slide3">
+    <input type="radio" name="slider" id="slide4">
+    <input type="radio" name="slider" id="slide5">
+    <input type="radio" name="slider" id="slide6">
+    <input type="radio" name="slider" id="slide7">
+    <input type="radio" name="slider" id="slide8">
+    <input type="radio" name="slider" id="slide9">
+    <input type="radio" name="slider" id="slide10">
+    <input type="radio" name="slider" id="slide11">
+    <input type="radio" name="slider" id="slide12">
+    <input type="radio" name="slider" id="slide13">
+    <input type="radio" name="slider" id="slide14">
+    <input type="radio" name="slider" id="slide15">
+    <input type="radio" name="slider" id="slide16">
+    <input type="radio" name="slider" id="slide17">
+    <input type="radio" name="slider" id="slide18">
+    <input type="radio" name="slider" id="slide19">
+    <input type="radio" name="slider" id="slide20">
+    <input type="radio" name="slider" id="slide21">
+    <input type="radio" name="slider" id="slide22">
+    <input type="radio" name="slider" id="slide23">
+
+    <div class="slides">
+      <div class="slide s1"><img src="./assets/img/DSC01526.jpg" alt="Photo 1"></div>
+      <div class="slide"><img src="./assets/img/DSC01562.jpg" alt="Photo 2"></div>
+      <div class="slide"><img src="./assets/img/DSC01566.jpg" alt="Photo 3"></div>
+      <div class="slide"><img src="./assets/img/DSC01616.jpg" alt="Photo 4"></div>
+      <div class="slide"><img src="./assets/img/DSC01683.jpg" alt="Photo 5"></div>
+      <div class="slide"><img src="./assets/img/DSC01700.jpg" alt="Photo 6"></div>
+      <div class="slide"><img src="./assets/img/DSC06357.JPG" alt="Photo 7"></div>
+      <div class="slide"><img src="./assets/img/DSC09342.jpg" alt="Photo 8"></div>
+      <div class="slide"><img src="./assets/img/DSC09539.jpg" alt="Photo 9"></div>
+      <div class="slide"><img src="./assets/img/DSC09546.jpg" alt="Photo 10"></div>
+      <div class="slide"><img src="./assets/img/DSC09555.jpg" alt="Photo 11"></div>
+      <div class="slide"><img src="./assets/img/DSC09582.png" alt="Photo 12"></div>
+      <div class="slide"><img src="./assets/img/DSC09615.png" alt="Photo 13"></div>
+      <div class="slide"><img src="./assets/img/DSC09635.png" alt="Photo 14"></div>
+      <div class="slide"><img src="./assets/img/DSC01524.jpg" alt="Photo 15"></div>
+      <div class="slide"><img src="./assets/img/DSC01617.jpg" alt="Photo 16"></div>
+      <div class="slide"><img src="./assets/img/DSC01658.jpg" alt="Photo 17"></div>
+      <div class="slide"><img src="./assets/img/DSC01697.jpg" alt="Photo 18"></div>
+      <div class="slide"><img src="./assets/img/DSC06373.JPG" alt="Photo 19"></div>
+      <div class="slide"><img src="./assets/img/DSC06379.JPG" alt="Photo 20"></div>
+      <div class="slide"><img src="./assets/img/DSC06417.JPG" alt="Photo 21"></div>
+      <div class="slide"><img src="./assets/img/DSC06451.JPG" alt="Photo 22"></div>
+      <div class="slide"><img src="./assets/img/DSC06620.JPG" alt="Photo 23"></div>
+    </div>
+
+    <div class="navigation">
+      <label for="slide1"></label>
+      <label for="slide2"></label>
+      <label for="slide3"></label>
+      <label for="slide4"></label>
+      <label for="slide5"></label>
+      <label for="slide6"></label>
+      <label for="slide7"></label>
+      <label for="slide8"></label>
+      <label for="slide9"></label>
+      <label for="slide10"></label>
+      <label for="slide11"></label>
+      <label for="slide12"></label>
+      <label for="slide13"></label>
+      <label for="slide14"></label>
+      <label for="slide15"></label>
+      <label for="slide16"></label>
+      <label for="slide17"></label>
+      <label for="slide18"></label>
+      <label for="slide19"></label>
+      <label for="slide20"></label>
+      <label for="slide21"></label>
+      <label for="slide22"></label>
+      <label for="slide23"></label>
+    </div>
+
   </div>
 </main>
-  </div>
-</main>
+
 
 
   <footer class="footer">
